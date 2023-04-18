@@ -45,8 +45,7 @@ body {
   color: var(--main-font-color);
   letter-spacing: 0.02em;
 }
-.mail-link,
-.tel-link {
+.info-link {
   color: var(--secondary-font-color);
   letter-spacing: 0.02em;
 }
@@ -79,7 +78,7 @@ body {
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--accent-color);
+  color: var(--logo-color);
   font-family: inherit;
 }
 .btn-filter:active,
@@ -118,10 +117,11 @@ body {
   border: 1px solid var(--bg-secondary-color);
 }
 .card-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   color: var(--main-font-color);
+  letter-spacing: 0.02em;
 }
 .card-description {
   font-size: 16;
@@ -157,9 +157,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--main-font-color);
+  letter-spacing: 0.02em;
 }
 .about-text {
-  line-height: 1.5;
+  line-height:1.5;
   color: var(--secondary-font-color);
   letter-spacing: 0.02em;
 }
