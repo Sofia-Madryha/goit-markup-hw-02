@@ -50,7 +50,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.adress{
+.adress {
   font-style: normal;
 }
 .nav-link:hover,
@@ -60,15 +60,16 @@ body {
 
 .button {
   cursor: pointer;
-  background: var(--accent-color);
+  background-color: var(--logo-color);
   border-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--logo-color);
+  color: var(--main-light-color);
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
 }
+
 .button:hover {
   background: var(--accent-color);
 }
@@ -126,8 +127,9 @@ body {
 }
 .card-description {
   font-size: 16;
-  line-height: 1.875;
+  line-height: 1.5;
   color: var(--secondary-font-color);
+  letter-spacing: 0.02em;
 }
 .our-team {
   background-color: var(--light-font-color);
@@ -140,10 +142,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
-.team-description{
+.team-description {
   font-size: 16px;
   letter-spacing: 0.02em;
-  color:var(--secondary-font-color);
+  color: var(--secondary-font-color);
   line-height: 1.5;
 }
 .headline {
@@ -163,7 +165,7 @@ body {
   letter-spacing: 0.02em;
 }
 .about-text {
-  line-height:1.5;
+  line-height: 1.5;
   color: var(--secondary-font-color);
   letter-spacing: 0.02em;
 }
