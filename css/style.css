@@ -65,8 +65,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--main-light-color);
+  color: var(--logo-color);
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 .button:hover {
   background: var(--accent-color);
@@ -129,10 +130,10 @@ body {
   color: var(--secondary-font-color);
 }
 .our-team {
-  background: var(--light-font-color);
+  background-color: var(--light-font-color);
 }
 .card-team {
-  background: var(--main-light-color);
+  background-color: var(--main-light-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,6 +143,8 @@ body {
 .team-description{
   font-size: 16px;
   letter-spacing: 0.02em;
+  color:var(--secondary-font-color);
+  line-height: 1.5;
 }
 .headline {
   font-weight: 700;
