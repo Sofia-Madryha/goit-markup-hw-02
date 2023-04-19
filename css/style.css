@@ -14,7 +14,6 @@ body {
   background-color: var(--main-light-color);
   color: var(--secondary-font-color);
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
 }
@@ -28,7 +27,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -48,6 +46,7 @@ body {
 .info-link {
   color: var(--secondary-font-color);
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 .adress {
@@ -113,11 +112,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-light-color);
-  background-color: var(--logo-color);
-  font-family: "Roboto", sans-serif;
+
 }
 .card-project {
-  border: 1px solid var(--bg-secondary-color);
+  
 }
 .card-title {
   font-weight: 500;
@@ -137,7 +135,6 @@ body {
 }
 .card-team {
   background-color: var(--main-light-color);
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -148,6 +145,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-font-color);
   line-height: 1.5;
+  font-weight: 400;
 }
 .headline {
   font-weight: 700;
@@ -177,8 +175,7 @@ body {
   color: var(--light-font-color);
 }
 .info-footer {
-  line-height: 1.714;
+  line-height: 1.5;
   color: var(--light-font-color);
-  opacity: 60%;
   font-style: normal;
 }
